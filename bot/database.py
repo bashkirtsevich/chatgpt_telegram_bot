@@ -4,7 +4,7 @@ import pymongo
 import uuid
 from datetime import datetime
 
-import config
+from . import config
 
 
 class Database:
